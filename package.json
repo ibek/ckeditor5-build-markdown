@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-inline",
+  "name": "@ibek/ckeditor5-build-markdown",
   "version": "17.0.0",
   "description": "The inline editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -18,7 +18,8 @@
     "collaboration",
     "collaborative",
     "real-time",
-    "framework"
+    "framework",
+    "markdown"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -38,10 +39,9 @@
     "@ckeditor/ckeditor5-essentials": "^17.0.0",
     "@ckeditor/ckeditor5-heading": "^17.0.0",
     "@ckeditor/ckeditor5-image": "^17.0.0",
-    "@ckeditor/ckeditor5-indent": "^17.0.0",
     "@ckeditor/ckeditor5-link": "^17.0.0",
     "@ckeditor/ckeditor5-list": "^17.0.0",
-    "@ckeditor/ckeditor5-media-embed": "^17.0.0",
+    "@ckeditor/ckeditor5-markdown-gfm": "^17.0.0",
     "@ckeditor/ckeditor5-paragraph": "^17.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^17.0.0",
     "@ckeditor/ckeditor5-table": "^17.0.0",
