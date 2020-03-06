@@ -8,13 +8,14 @@
     /* Helper variables to avoid duplication in the colors. */
     --ck-custom-background: hsl(207, 23%, 25%);
     --ck-custom-foreground: hsl(206, 24%, 21%);
-    --ck-custom-border: hsl(204, 33%, 97%);
+    --ck-custom-border: hsl(206, 24%, 64%);
     --ck-custom-white: hsl(204, 33%, 97%);
 
     /* -- Overrides generic colors. ------------------------------------------------------------- */
 
     --ck-color-base-foreground: var(--ck-custom-background);
-    --ck-color-focus-border: hsl(204, 33%, 97%);
+    --ck-color-base-active: rgba(138, 155, 168, 0.3);
+    --ck-color-focus-border: hsl(206, 24%, 64%);
     --ck-color-text: hsl(204, 33%, 97%);
     --ck-color-shadow-drop: hsla(0, 0%, 0%, 0.2);
     --ck-color-shadow-inner: hsla(0, 0%, 0%, 0.1);
