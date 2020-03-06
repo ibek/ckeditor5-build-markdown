@@ -6,31 +6,31 @@
     --ck-font-size-base: 14px;
 
     /* Helper variables to avoid duplication in the colors. */
-    --ck-custom-background: hsl(270, 1%, 29%);
-    --ck-custom-foreground: hsl(255, 3%, 18%);
-    --ck-custom-border: hsl(300, 1%, 22%);
-    --ck-custom-white: hsl(0, 0%, 100%);
+    --ck-custom-background: hsl(207, 23%, 25%);
+    --ck-custom-foreground: hsl(206, 24%, 21%);
+    --ck-custom-border: hsl(204, 33%, 97%);
+    --ck-custom-white: hsl(204, 33%, 97%);
 
     /* -- Overrides generic colors. ------------------------------------------------------------- */
 
     --ck-color-base-foreground: var(--ck-custom-background);
-    --ck-color-focus-border: hsl(208, 90%, 62%);
-    --ck-color-text: hsl(0, 0%, 98%);
+    --ck-color-focus-border: hsl(204, 33%, 97%);
+    --ck-color-text: hsl(204, 33%, 97%);
     --ck-color-shadow-drop: hsla(0, 0%, 0%, 0.2);
     --ck-color-shadow-inner: hsla(0, 0%, 0%, 0.1);
 
     /* -- Overrides the default .ck-button class colors. ---------------------------------------- */
 
     --ck-color-button-default-background: var(--ck-custom-background);
-    --ck-color-button-default-hover-background: hsl(270, 1%, 22%);
-    --ck-color-button-default-active-background: hsl(270, 2%, 20%);
-    --ck-color-button-default-active-shadow: hsl(270, 2%, 23%);
+    --ck-color-button-default-hover-background: hsl(207, 23%, 18%);
+    --ck-color-button-default-active-background: hsl(207, 24%, 14%);
+    --ck-color-button-default-active-shadow: hsl(207, 24%, 19%);
     --ck-color-button-default-disabled-background: var(--ck-custom-background);
 
     --ck-color-button-on-background: var(--ck-custom-foreground);
-    --ck-color-button-on-hover-background: hsl(255, 4%, 16%);
-    --ck-color-button-on-active-background: hsl(255, 4%, 14%);
-    --ck-color-button-on-active-shadow: hsl(240, 3%, 19%);
+    --ck-color-button-on-hover-background: hsl(206, 25%, 19%);
+    --ck-color-button-on-active-background: hsl(206, 25%, 17%);
+    --ck-color-button-on-active-shadow: hsl(206, 25%, 21%);
     --ck-color-button-on-disabled-background: var(--ck-custom-foreground);
 
     --ck-color-button-action-background: hsl(168, 76%, 42%);
@@ -57,10 +57,10 @@
 
     --ck-color-input-background: var(--ck-custom-foreground);
     --ck-color-input-border: hsl(257, 3%, 43%);
-    --ck-color-input-text: hsl(0, 0%, 98%);
+    --ck-color-input-text: hsl(204, 33%, 97%);
     --ck-color-input-disabled-background: hsl(255, 4%, 21%);
     --ck-color-input-disabled-border: hsl(250, 3%, 38%);
-    --ck-color-input-disabled-text: hsl(0, 0%, 46%);
+    --ck-color-input-disabled-text: hsl(204, 33%, 46%);
 
     /* -- Overrides the default .ck-list class colors. ------------------------------------------ */
 
